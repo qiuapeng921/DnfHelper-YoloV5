@@ -29,8 +29,8 @@ seaborn>=0.11.0
 
 # Export ----------------------------------------------------------------------
 # coremltools>=6.0  # CoreML export
-# onnx>=1.9.0  # ONNX export
-# onnx-simplifier>=0.4.1  # ONNX simplifier
+onnx>=1.9.0  # ONNX export
+onnx-simplifier>=0.4.1  # ONNX simplifier
 # nvidia-pyindex  # TensorRT export
 # nvidia-tensorrt  # TensorRT export
 # scikit-learn<=1.1.2  # CoreML quantization
@@ -46,12 +46,8 @@ seaborn>=0.11.0
 # albumentations>=1.0.3
 # pycocotools>=2.0  # COCO mAP
 # roboflow
-# ultralytics  # HUB https://hub.ultralytics.com
+ultralytics  # HUB https://hub.ultralytics.com
 
 # dnf脚本相关依赖
 pyautogui
 torchaudio
-ultralytics
-# opencv-python
-# torch
-# torchvision

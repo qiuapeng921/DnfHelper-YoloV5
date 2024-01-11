@@ -51,3 +51,4 @@ ultralytics  # HUB https://hub.ultralytics.com
 # dnf脚本相关依赖
 pyautogui
 torchaudio
+labelimg

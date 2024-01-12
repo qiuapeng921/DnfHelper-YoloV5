@@ -46,9 +46,13 @@ onnx-simplifier>=0.4.1  # ONNX simplifier
 # albumentations>=1.0.3
 # pycocotools>=2.0  # COCO mAP
 # roboflow
-ultralytics  # HUB https://hub.ultralytics.com
+# ultralytics  # HUB https://hub.ultralytics.com
 
 # dnf脚本相关依赖
 pyautogui
 torchaudio
+ultralytics
 labelimg
+# opencv-python
+# torch
+# torchvision

@@ -1,3 +1,7 @@
+# 配置视频
+
+视频地址: [https://www.bilibili.com/video/BV1Mp4y1n7HR/](https://www.bilibili.com/video/BV1Mp4y1n7HR/)
+
 ## 需求环境
 1. **操作系统:** Win10 或 Win11 64位系统（必须）
 2. **显卡要求:** 最好有 NVIDIA 显卡，显卡驱动更新到最新版本，最好是30系列以上（可选，建议）
@@ -26,7 +30,7 @@
     - 进入 yolo 目录，执行命令：`python detect.py --weights yolov5s.pt --source data/images/bus.jpg`
 
 7. **测试训练:**
-    - 进入 yolo 目录，执行命令：`python train.py --weights yolov5s.pt --epochs 300 --batch-size 16 --workers 8 --data ../datasets/coco128/coco128.yaml`
+    - 进入 yolo 目录，执行命令：`python train.py --weights yolov5s.pt --epochs 300 --batch-size 16 --workers 8 --data ../datasets/coco8/coco8.yaml`
 
 8. **测试模型格式转换:**
     - 进入 yolo 目录，执行命令：`python export.py --weights yolov5s.pt --simplify --include onnx`

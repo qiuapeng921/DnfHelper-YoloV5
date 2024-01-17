@@ -47,3 +47,10 @@ seaborn>=0.11.0
 # pycocotools>=2.0  # COCO mAP
 # roboflow
 # ultralytics  # HUB https://hub.ultralytics.com
+
+# dnf脚本相关依赖
+pyautogui
+torchaudio
+labelimg
+keyboard
+pygetwindow

@@ -7,7 +7,7 @@ ipython  # interactive notebook
 matplotlib>=3.2.2
 numpy>=1.18.5
 opencv-python>=4.1.1
-Pillow>=7.1.2
+Pillow==9.5.0
 psutil  # system resources
 PyYAML>=5.3.1
 requests>=2.23.0
@@ -51,8 +51,6 @@ onnx-simplifier>=0.4.1  # ONNX simplifier
 # dnf脚本相关依赖
 pyautogui
 torchaudio
-ultralytics
 labelimg
-# opencv-python
-# torch
-# torchvision
+keyboard
+pygetwindow
